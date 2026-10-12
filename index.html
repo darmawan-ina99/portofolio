@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio — ADE-Labs Digital</title>
+<style>
+:root{--bg:#0b0e14;--card:#131826;--line:#232b3d;--txt:#e8edf5;--dim:#8b95a8;--acc:#388bfd;--ok:#2ea043;--gold:#d29922}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding:24px 16px 60px}
+header{text-align:center;padding:34px 10px 10px}
+header .logo{font-size:44px}
+header h1{font-size:26px;margin-top:6px;letter-spacing:.5px}
+header h1 span{color:var(--acc)}
+header p{color:var(--dim);font-size:14px;margin-top:6px}
+.badge-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.badge{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:5px 14px;font-size:12px;color:var(--dim)}
+.badge b{color:var(--txt)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 8px;text-align:center}
+.stat .n{font-size:26px;font-weight:800;color:var(--acc)}
+.stat .l{font-size:11px;color:var(--dim);margin-top:2px}
+h2{font-size:15px;color:var(--dim);margin:30px 0 12px;text-transform:uppercase;letter-spacing:1.5px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;gap:14px;align-items:flex-start;transition:border-color .2s}
+.card:hover{border-color:var(--acc)}
+.card .ico{font-size:30px;width:46px;height:46px;background:#0e1422;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card .body{flex:1;min-width:0}
+.card .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card h3{font-size:15px}
+.tag{font-size:10px;background:#1c2536;color:var(--acc);border-radius:10px;padding:2px 8px}
+.tag.ok{color:var(--ok)} .tag.gold{color:var(--gold)}
+.card p{font-size:12.5px;color:var(--dim);margin:4px 0 10px}
+.card a{display:inline-block;font-size:12px;font-weight:600;color:#fff;background:var(--acc);text-decoration:none;padding:6px 14px;border-radius:8px}
+.card a.alt{background:transparent;border:1px solid var(--line);color:var(--txt)}
+.meta{font-size:11px;color:#5a6478;margin-top:8px}
+footer{text-align:center;color:#5a6478;font-size:12px;margin-top:44px;padding-top:20px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">🚀</div>
+  <h1>Portofolio <span>ADE-Labs Digital</span></h1>
+  <p>Karya digital Darmawan Winata &amp; OkTa — Juli s.d. Oktober 2026</p>
+  <div class="badge-row">
+    <div class="badge">Dibangun: <b>Wawan + OkTa</b></div>
+    <div class="badge">Hosting: <b>Gratis 100%</b></div>
+    <div class="badge">Tanpa iklan &amp; pelacak</div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="n">10</div><div class="l">Produk Utama</div></div>
+  <div class="stat"><div class="n">25+</div><div class="l">Versi &amp; Iterasi</div></div>
+  <div class="stat"><div class="n">3</div><div class="l">Bulan Pengerjaan</div></div>
+</div>
+
+<h2>Pemerintahan &amp; Layanan Desa</h2>
+<div class="grid">
+  <div class="card">
+    <div class="ico">🗳️</div>
+    <div class="body">
+      <div class="top"><h3>Pilkades Sriamur</h3><span class="tag ok">Produksi</span></div>
+      <p>Sistem realcount Pilkades dipakai resmi di Desa Sriamur: 40 TPS, C1 foto saksi, tabulasi live, panel admin rahasia.</p>
+      <a href="https://pilkades-sriamur.vercel.app/">Buka Aplikasi</a>
+      <div class="meta">Jul–Sep 2026 · Dipakai di Pilkades beneran</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">📊</div>
+    <div class="body">
+      <div class="top"><h3>Pilkades Pro</h3><span class="tag">SaaS</span></div>
+      <p>Tabulasi suara serentak multi-desa, quickcount, proposal siap pakai. Versi production untuk klien.</p>
+      <a href="https://darmawan-ina99.github.io/Bilkades2026Serentak/">Buka Aplikasi</a>
+      <div class="meta">Jul 2026 · Multi-tenant</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">📈</div>
+    <div class="body">
+      <div class="top"><h3>Riset Pilkades</h3><span class="tag">Jasa Digital</span></div>
+      <p>Landing page jasa riset digital &amp; survei popularitas untuk kandidat Pilkades 2026.</p>
+      <a href="https://darmawan-ina99.github.io/riset-pilkades/">Buka Aplikasi</a>
+      <div class="meta">Agu 2026</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">🧠</div>
+    <div class="body">
+      <div class="top"><h3>SICERDAS-DESA</h3><span class="tag">Survei</span></div>
+      <p>Sistem cerdas riset popularitas desa: form survey, analisis, dan laporan otomatis.</p>
+      <a href="https://darmawan-ina99.github.io/sicerdas-desa/">Buka Aplikasi</a>
+      <div class="meta">Agu 2026</div>
+    </div>
+  </div>
+</div>
+
+<h2>Bisnis &amp; Komunitas</h2>
+<div class="grid">
+  <div class="card">
+    <div class="ico">🏘️</div>
+    <div class="body">
+      <div class="top"><h3>Manajemen Kost Kelinci Bunder</h3><span class="tag">Operasional</span></div>
+      <p>Pengelolaan 46 kamar sewa 4 lantai: penyewa, tagihan, pembayaran, dan laporan bulanan.</p>
+      <a href="https://darmawan-ina99.github.io/manajemen-kost/">Buka Aplikasi</a>
+      <div class="meta">Sep 2026 · Kost keluarga sendiri</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">🎁</div>
+    <div class="body">
+      <div class="top"><h3>Arisan Digital Gacha</h3><span class="tag">Komunitas</span></div>
+      <p>Arisan dengan animasi tabung gacha 5 detik, admin PIN, riwayat pemenang, notifikasi WhatsApp.</p>
+      <a href="https://darmawan-ina99.github.io/Arisan-gacha/">Buka Aplikasi</a>
+      <div class="meta">Jul 2026 · Produk pertama kita</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">📻</div>
+    <div class="body">
+      <div class="top"><h3>TalkieLite</h3><span class="tag gold">Terbaru</span></div>
+      <p>Walkie-talkie internet: suara Opus via Realtime Supabase. Gratis, tanpa iklan, tanpa akun.</p>
+      <a href="https://darmawan-ina99.github.io/talkielite/">Buka Aplikasi</a>
+      <div class="meta">Okt 2026 · Baru rilis</div>
+    </div>
+  </div>
+</div>
+
+<h2>Game &amp; Teknologi</h2>
+<div class="grid">
+  <div class="card">
+    <div class="ico">🎲</div>
+    <div class="body">
+      <div class="top"><h3>TheDice — Domino Match</h3><span class="tag">Game</span></div>
+      <p>Seri 10 build (V6.9 PURE → V8.6 FLOW): game dadu domino APK 284 KB dengan engine roll presisi.</p>
+      <a href="https://darmawan-ina99.github.io/thedice-replica/">Lihat Studi</a>
+      <a class="alt" href="https://darmawan-ina99.github.io/apkcentre/">Download APK</a>
+      <div class="meta">Sep–Okt 2026 · 10 versi</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">🏆</div>
+    <div class="body">
+      <div class="top"><h3>ChinChiro Dice2 REMOTE</h3><span class="tag">Game</span></div>
+      <p>Remake Unity 4.7 karya asli Wawan, 12 iterasi remote control + panel web untuk pengaturan dadu.</p>
+      <a href="https://darmawan-ina99.github.io/chinchiro-remote/">Panel Remote</a>
+      <div class="meta">Okt 2026 · 12+ patch</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ico">📦</div>
+    <div class="body">
+      <div class="top"><h3>APKCentre</h3><span class="tag">Distribusi</span></div>
+      <p>Katalog download APK buatan sendiri lengkap dengan halaman checksum SHA-256 tiap build.</p>
+      <a href="https://darmawan-ina99.github.io/apkcentre/">Buka Katalog</a>
+      <div class="meta">Sep 2026</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Semua karya di-hosting gratis (GitHub Pages + Vercel), tanpa iklan, tanpa pelacak.<br>
+  © 2026 Darmawan Winata — dibangun bersama OkTa 🤖
+</footer>
+</div>
+</body>
+</html>
